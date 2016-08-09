@@ -1,4 +1,9 @@
-
+/*
+ * Created by Ravi Kiran.S
+ * Roll No: 2015103019
+ * 
+ * 
+ */
 
 public class Employee {
 	String firstName,lastName;
@@ -10,28 +15,28 @@ public class Employee {
 		salary=sal;
 	}
 	
-	public void set_firstName(String x){
+	public void setFirstName(String x){
 		firstName=x;
 	}
 	
-	public String get_firstName(){
+	public String getFirstName(){
 		return firstName;
 	}
 	
-	public void set_lastName(String x){
+	public void setLastName(String x){
 		lastName=x;
 	}
 	
-	public String get_lastName(){
+	public String getLastName(){
 		return lastName;
 	}
 	
-	public void set_salary(double x){
+	public void setSalary(double x){
 		if(salary>=0)
 			salary=x;
 	}
 	
-	public double get_salary(){
+	public double getSalary(){
 		return salary;
 	}
 	
