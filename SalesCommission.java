@@ -1,3 +1,10 @@
+/*
+ * Created by Ravi Kiran.S
+ * Roll No: 2015103019
+ * 
+ * 
+ */
+
 import java.util.*;
 
 public class SalesCommission {
@@ -11,7 +18,7 @@ public class SalesCommission {
 		double []grossSales =new double[n];
 		for(i=0;i<n;i++){
 			grossSales[i]=inp.nextDouble();
-			salary[i]=200+(int)((5*grossSales[i])/100);
+			salary[i]=200+(int)((9*grossSales[i])/100);
 			if(salary[i]>=200 && salary[i]<=299)counter[1]++;
 			else if(salary[i]>=300 && salary[i]<=399)counter[2]++;
 			else if(salary[i]>=400 && salary[i]<=499)counter[3]++;
