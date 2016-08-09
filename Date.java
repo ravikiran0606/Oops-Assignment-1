@@ -1,4 +1,9 @@
-
+/*
+ * Created by Ravi Kiran.S
+ * Roll No: 2015103019
+ * 
+ * 
+ */
 public class Date {
 	int day,month,year;
 	public Date(int a,int b,int c){
@@ -7,30 +12,30 @@ public class Date {
 		year=c;
 	}
 	
-	public void set_day(int x){
+	public void setDay(int x){
 		day=x;
 	}
 	
-	public int get_day(){
+	public int getDay(){
 		return day;
 	}
 	
-	public void set_month(int x){
+	public void setMonth(int x){
 		month=x;
 	}
 	
-	public int get_month(){
+	public int getMonth(){
 		return month;
 	}
 	
-	public void set_year(int x){
+	public void setYear(int x){
 		year=x;
 	}
 	
-	public int get_year(){
+	public int getYear(){
 		return year;
 	}
 	public void displayDate(){
-		System.out.println("The Date is "+day+"/"+month+"/"+year);
+		System.out.println(day+"/"+month+"/"+year);
 	}
 }
