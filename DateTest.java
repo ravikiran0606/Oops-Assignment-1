@@ -1,3 +1,9 @@
+/*
+ * Created by Ravi Kiran.S
+ * Roll No: 2015103019
+ * 
+ * 
+ */
 import java.util.*;
 
 public class DateTest {
@@ -10,6 +16,12 @@ public class DateTest {
 		b=inp.nextInt();
 		c=inp.nextInt();
 		Date obj=new Date(a,b,c);
+		
+		// Date Capabilities...
+		System.out.println("Day : "+obj.getDay());
+		System.out.println("Month : "+obj.getMonth());
+		System.out.println("Year : "+obj.getYear());
+		System.out.print("Date in Expected Format : ");
 		obj.displayDate();
 	}
 }
