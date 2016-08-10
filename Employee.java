@@ -7,12 +7,13 @@
 
 public class Employee {
 	String firstName,lastName;
-	double salary;
+	double salary,yearlySalary;
 	
 	public Employee(String fn,String ln,double sal){
 		firstName=fn;
 		lastName=ln;
 		salary=sal;
+		yearlySalary=salary*12;
 	}
 	
 	public void setFirstName(String x){
@@ -40,10 +41,14 @@ public class Employee {
 		return salary;
 	}
 	
+	public double getYearlySalary(){
+		return yearlySalary;
+	}
+	
 	public void raise(double percent){
 		double temp;
-		temp=salary*(percent/100);
-		salary+=temp;
+		temp=yearlySalary*(percent/100);
+		yearlySalary+=temp;
 	}
 	
 }
